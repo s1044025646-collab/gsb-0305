@@ -1,0 +1,20 @@
+{
+  "name": "look-disk-sim",
+  "version": "1.0.0",
+  "description": "Windows 本地运行的单磁头 LOOK 磁盘寻道与到达事件回放后端（TypeScript + Node.js + SQLite）",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/tests/*.test.js\"",
+    "start": "node dist/src/cli.js serve",
+    "demo": "node dist/src/cli.js demo"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.9.0"
+  }
+}

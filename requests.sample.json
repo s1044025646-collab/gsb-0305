@@ -1,0 +1,6 @@
+[
+  { "id": "R2", "arrival": 0, "cylinder": 2 },
+  { "id": "R7", "arrival": 0, "cylinder": 7 },
+  { "id": "R6", "arrival": 1, "cylinder": 6 },
+  { "id": "R3", "arrival": 3, "cylinder": 3 }
+]
